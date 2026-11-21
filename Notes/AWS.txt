@@ -4,4 +4,5 @@ IAM--
 
 	* IAM User - An IAM user is a permanent identity with long-term credentials (like a password or access keys) meant for a specific person or system, 
 	* IAM Role - IAM role is an identity without permanent credentials that trusted users, applications, or AWS services assume for temporary access.
-
+	* IAM Groups - IAM group is used for organizing multiple IAM users into a single group regarding their jobs and access. So they can get same policies at once.
+	* IAM Policy - IAM policy is used for specifies what action is allowed or denied on which resources. Policies can be attached to groups, users, roles.
