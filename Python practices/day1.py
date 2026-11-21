@@ -18,6 +18,10 @@ print(skills)
 print(employee)
 print(salary)
 
+print(type(skills))
+print(type(employee))
+print(type(is_working))
+
 def age(b): 
     return f"Age is {b}"
 

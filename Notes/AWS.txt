@@ -1,0 +1,7 @@
+AWS
+
+IAM--
+
+	* IAM User - An IAM user is a permanent identity with long-term credentials (like a password or access keys) meant for a specific person or system, 
+	* IAM Role - IAM role is an identity without permanent credentials that trusted users, applications, or AWS services assume for temporary access.
+
