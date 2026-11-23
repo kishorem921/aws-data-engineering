@@ -6,3 +6,31 @@ IAM--
 	* IAM Role - IAM role is an identity without permanent credentials that trusted users, applications, or AWS services assume for temporary access.
 	* IAM Groups - IAM group is used for organizing multiple IAM users into a single group regarding their jobs and access. So they can get same policies at once.
 	* IAM Policy - IAM policy is used for specifies what action is allowed or denied on which resources. Policies can be attached to groups, users, roles.
+
+
+S3--
+
+	* S3 stands for simple storage service
+	* Object storage service to store files of any size
+	* Bucket - container for files as object storage. eg:- s3://employee-data
+	* object - Actual file stored in a bucket. eg:- .csv, .json, .parquet
+	* Data Engineering Use Cases
+
+		- Data Lakes
+		- CSV Storage
+		- JSON Storage
+		- Parquet Storage
+		- Log Storage
+		- Backup Storage 
+
+## Typical Data Pipeline
+
+Source
+  ↓
+S3
+  ↓
+Spark / Glue
+  ↓
+Redshift
+  ↓
+Dashboard

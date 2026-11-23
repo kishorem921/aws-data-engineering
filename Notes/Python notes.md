@@ -200,7 +200,13 @@
 
 
 
+* **Enumerate() - is used for iterate over an iterable while keeping track of both the index and the value.** 
 
+&#x09;
+
+&#x09;**eg:- for i, v in enumerate(a):**
+
+&#x20;   		**int(i, v)**
 
 
 
